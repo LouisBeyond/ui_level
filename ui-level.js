@@ -168,7 +168,7 @@ module.exports = function (RED) {
 					/>
 				</g>
 				<rect id="level_stripe_0_{{unique}}" x="0" y="0" 
-					width="` + config.stripe.height + '" height="' + config.lastpos + `"	
+					width="` + config.stripe.customWidth + '" height="' + config.lastpos + `"	
 					style="stroke:none";
 					${filltype}
 					mask="url(#level_fgr_0_{{unique}})"				
